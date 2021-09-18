@@ -517,7 +517,7 @@ body{
         order: 0;
     }
     .eventsMeetDisplayBlock > img{
-     height: 425px;
+     height: 350px;
     }
     .eventsMeetTextWrapper{
         width: 40%;
@@ -572,3 +572,90 @@ body{
         font-size: 18px;
     }
 }
+
+@media only screen and (min-width:1300px) {
+    .heroSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .heroSectionTextsWrapper{
+        width: 40%;
+        padding: 40px 0 60px 0;
+    }
+    .heroSectionTextsWrapper > h1{
+        font-size: 56px;
+    }
+    
+    .heroSectionTextsWrapper > p{
+        max-width: 90%;
+        font-size: 20px;
+    }
+    .heroSectionDisplayBlock img{
+        height: auto;
+    }
+    .eventsMeetSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .eventsMeetDisplayBlock{
+        width: 60%;
+        order: 0;
+    }
+    .eventsMeetDisplayBlock > img{
+     height: 425px;
+    }
+    .eventsMeetTextWrapper{
+        width: 40%;
+    }
+    .eventsMeetLogoBlock{
+        margin-bottom: 15px;
+    }
+    .eventsMeetTextWrapper > h2{
+        margin-bottom: 20px;
+    }
+    .eventsMeetTextWrapper > p{
+        margin-bottom: 15px;
+        max-width: auto;
+    }
+    
+    .checkoutLinkBlock{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+    
+    .checkoutLinkBlock > a {
+        color: #00B87C;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .eventsUpcomingMeetsHeaderBox{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .eventsUpcomingMeetsHeaderBox > h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .eventsUpcomingMeetsHeaderBox > p{
+        max-width: 40%;
+    }
+    
+    .eventsBlock {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid #DFDFDF;
+        padding: 40px 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .eventsBlock > h3, .eventsBlock > p{
+        font-size: 18px;
+    }
+} 
